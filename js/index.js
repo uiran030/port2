@@ -135,3 +135,9 @@ $('.slide .imgbox').on('mouseout', function(){
     var imgh = img.innerHeight();
     img.stop().animate({top:0}, 3000);
 })
+
+
+$('.sec1 .start').on('click', function(){
+    var wh = $('#sec2').offset().top
+    $('html').animate({scrollTop:wh}, '3000');
+})
