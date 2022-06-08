@@ -135,6 +135,8 @@
     position:absolute;
     left:50%;
     transform: translateX(-50%);
+    height:10%;
+    border:1px solid red;
 }
 #main #sec2 .right .himap {
     width:100%; 
@@ -142,10 +144,11 @@
     flex-flow: column;
     justify-content: center;
     align-content: center;
-    position:absolute;
+    /* position:absolute;
     top:70%; left:0;
-    transform: translateY(-70%);
+    transform: translateY(-70%); */
     flex:1;
+    border:1px solid green;
 }
 #main #sec2 .right .himap > li {
     display: flex;
