@@ -147,7 +147,7 @@
     /* position:absolute;
     top:70%; left:0;
     transform: translateY(-70%); */
-    flex:1;
+    /* flex:1; */
     border:1px solid green;
 }
 #main #sec2 .right .himap > li {
