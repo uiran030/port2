@@ -127,7 +127,8 @@
 #main .sec2box .profile p.hover:hover a {color:#0652ce} 
 #main #sec2 .right {
     display: flex; 
-    flex-flow: column; 
+    flex-flow: column;
+    justify-content: center;
     height:100%;
     position:relative;
 }
@@ -137,6 +138,7 @@
     transform: translateX(-50%); */
     /* height:10%; */
     border:1px solid red;
+    margin-bottom:0px;
 }
 #main #sec2 .right .himap {
     width:100%; 
