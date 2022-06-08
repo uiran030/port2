@@ -133,11 +133,6 @@
     position:relative;
 }
 #main #sec2 .right h3 {
-    /* position:absolute;
-    left:50%;
-    transform: translateX(-50%); */
-    /* height:10%; */
-    border:1px solid red;
     margin-bottom:0px;
 }
 #main #sec2 .right .himap {
@@ -146,11 +141,6 @@
     flex-flow: column;
     justify-content: center;
     align-content: center;
-    /* position:absolute;
-    top:70%; left:0;
-    transform: translateY(-70%); */
-    /* flex:1; */
-    border:1px solid green;
 }
 #main #sec2 .right .himap > li {
     display: flex;
@@ -205,7 +195,6 @@
     justify-content: center;
     width:70%;
     height: 60%;
-    /* justify-content: flex-end; */
     background-color: #fdfdfd;
     box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
     border-radius: 20px;
@@ -369,15 +358,12 @@
 
 /* main -section5 */
 section:nth-child(5) {
-    /* background-color: #d5efff; */
     position:relative;
     overflow: hidden;
 }
 section:nth-child(5) .circle{
     position:absolute;
     top:-300px; left: -300px;
-    /* margin-top:-100px; margin-left:-100px; */
-     /* right:0%; bottom:0%; */
     background-color: #d5efff;
     border-radius: 50%;
     transition:all 2s;
